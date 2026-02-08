@@ -15,8 +15,8 @@ export default function Navigation({ locale }: { locale: string }) {
   ];
 
   const languages = [
-    { code: "zh-CN", label: "简体" },
-    { code: "zh-TW", label: "繁體" },
+    { code: "zh-CN", label: "简" },
+    { code: "zh-TW", label: "繁" },
     { code: "en", label: "EN" },
   ];
 
@@ -31,7 +31,7 @@ export default function Navigation({ locale }: { locale: string }) {
               <div className="w-10 h-10 bg-gradient-to-br from-aurora-500 to-polar-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">✦</span>
               </div>
-              <span className="font-display text-xl font-bold text-glow">
+              <span className={"font-display font-bold text-glow " + (locale === "en" ? "text-xs" : "text-xl")}>
                 {locale === "zh-CN"
                   ? "明日北极星个人分享"
                   : locale === "zh-TW"

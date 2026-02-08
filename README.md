@@ -35,7 +35,7 @@ pnpm start
 ## 📁 项目结构
 
 ```
-polaris-tools/
+polaris-sharing/
 ├── src/
 │   ├── app/
 │   │   ├── [locale]/          # 多语言路由

@@ -23,7 +23,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
                 </div>
                 <div>
                   <h2 className="text-2xl font-display font-semibold text-aurora-300">{t("location")}</h2>
-                  <p className="text-gray-400">Northern Europe</p>
+                  <p className="text-gray-400">Nordic Life</p>
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed">{t("passion")}</p>
@@ -43,6 +43,15 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               </div>
               <p className="text-gray-300 leading-relaxed">{t("description")}</p>
             </div>
+          </div>
+
+          <div className="glass-panel p-8">
+            <h2 className="text-3xl font-display font-semibold mb-6 text-center text-aurora-300">
+              {t("article.title")}
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph1")}</p>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph2")}</p>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph3")}</p>
           </div>
 
           <div className="glass-panel p-8">
