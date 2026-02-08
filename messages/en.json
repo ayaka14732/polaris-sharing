@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "about": "About"
+  },
+  "home": {
+    "title": "Polaris of Tomorrow",
+    "subtitle": "Personal Sharing Space",
+    "description": "A place for useful tools",
+    "welcome": "Welcome to my personal sharing space"
+  },
+  "tools": {
+    "title": "Useful Tools",
+    "unit": {
+      "title": "Unit Converter",
+      "description": "Quick conversion between units"
+    },
+    "calendar": {
+      "title": "Calendar Converter",
+      "description": "Convert between Lunar and Solar calendars"
+    },
+    "journey": {
+      "title": "Journey Tracker",
+      "description": "Track your travels"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "location": "Living in Northern Europe",
+    "passion": "I love aurora and technology, enjoying capturing nature's wonders in the cold north.",
+    "aurora": "My Aurora Photos",
+    "description": "As a tech enthusiast, I created this website to share some useful tools. At the same time, I want to share the beautiful aurora I captured while living in Northern Europe."
+  },
+  "unitConverter": {
+    "title": "Unit Converter",
+    "from": "From",
+    "to": "To",
+    "value": "Value",
+    "result": "Result",
+    "categories": {
+      "length": "Length",
+      "weight": "Weight",
+      "temperature": "Temperature",
+      "area": "Area",
+      "volume": "Volume"
+    },
+    "units": {
+      "meter": "Meter",
+      "kilometer": "Kilometer",
+      "centimeter": "Centimeter",
+      "millimeter": "Millimeter",
+      "mile": "Mile",
+      "yard": "Yard",
+      "foot": "Foot",
+      "inch": "Inch",
+      "kilogram": "Kilogram",
+      "gram": "Gram",
+      "milligram": "Milligram",
+      "pound": "Pound",
+      "ounce": "Ounce",
+      "celsius": "Celsius",
+      "fahrenheit": "Fahrenheit",
+      "kelvin": "Kelvin",
+      "squareMeter": "Square Meter",
+      "squareKilometer": "Square Kilometer",
+      "hectare": "Hectare",
+      "acre": "Acre",
+      "liter": "Liter",
+      "milliliter": "Milliliter",
+      "gallon": "Gallon",
+      "quart": "Quart"
+    }
+  },
+  "calendarConverter": {
+    "title": "Calendar Converter",
+    "selectDate": "Select Date",
+    "solarDate": "Solar",
+    "lunarDate": "Lunar",
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "zodiac": "Zodiac",
+    "heavenlyStem": "Heavenly Stem",
+    "earthlyBranch": "Earthly Branch"
+  },
+  "journeyTracker": {
+    "title": "Journey Tracker",
+    "addJourney": "Add Journey",
+    "destination": "Destination",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "notes": "Notes",
+    "save": "Save",
+    "cancel": "Cancel",
+    "noJourneys": "No journeys yet",
+    "edit": "Edit",
+    "delete": "Delete"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "首頁",
+    "tools": "工具",
+    "about": "關於"
+  },
+  "home": {
+    "title": "明日北極星",
+    "subtitle": "個人分享空間",
+    "description": "一個收集實用小工具的地方",
+    "welcome": "歡迎來到我的個人分享空間"
+  },
+  "tools": {
+    "title": "實用工具",
+    "unit": {
+      "title": "單位換算",
+      "description": "快速轉換各種單位"
+    },
+    "calendar": {
+      "title": "日曆轉換",
+      "description": "農曆與陽曆互轉"
+    },
+    "journey": {
+      "title": "行程記錄",
+      "description": "記錄你的旅程"
+    }
+  },
+  "about": {
+    "title": "關於我",
+    "location": "常居北歐",
+    "passion": "我熱愛極光和技術，享受在寒冷的北方捕捉大自然的奇蹟。",
+    "aurora": "我拍攝的極光",
+    "description": "作為一名技術愛好者，我創建了這個網站來分享一些實用的小工具。同時，我也想分享我在北歐生活中捕捉到的美麗極光。"
+  },
+  "unitConverter": {
+    "title": "單位換算器",
+    "from": "從",
+    "to": "到",
+    "value": "數值",
+    "result": "結果",
+    "categories": {
+      "length": "長度",
+      "weight": "重量",
+      "temperature": "溫度",
+      "area": "面積",
+      "volume": "體積"
+    },
+    "units": {
+      "meter": "米",
+      "kilometer": "千米",
+      "centimeter": "厘米",
+      "millimeter": "毫米",
+      "mile": "英里",
+      "yard": "碼",
+      "foot": "英尺",
+      "inch": "英寸",
+      "kilogram": "千克",
+      "gram": "克",
+      "milligram": "毫克",
+      "pound": "磅",
+      "ounce": "盎司",
+      "celsius": "攝氏度",
+      "fahrenheit": "華氏度",
+      "kelvin": "開爾文",
+      "squareMeter": "平方米",
+      "squareKilometer": "平方千米",
+      "hectare": "公頃",
+      "acre": "英畝",
+      "liter": "升",
+      "milliliter": "毫升",
+      "gallon": "加侖",
+      "quart": "夸脫"
+    }
+  },
+  "calendarConverter": {
+    "title": "日曆轉換",
+    "selectDate": "選擇日期",
+    "solarDate": "陽曆",
+    "lunarDate": "農曆",
+    "year": "年",
+    "month": "月",
+    "day": "日",
+    "zodiac": "生肖",
+    "heavenlyStem": "天干",
+    "earthlyBranch": "地支"
+  },
+  "journeyTracker": {
+    "title": "行程記錄",
+    "addJourney": "添加行程",
+    "destination": "目的地",
+    "startDate": "開始日期",
+    "endDate": "結束日期",
+    "notes": "備註",
+    "save": "保存",
+    "cancel": "取消",
+    "noJourneys": "暫無行程記錄",
+    "edit": "編輯",
+    "delete": "刪除"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "首页",
+    "tools": "工具",
+    "about": "关于"
+  },
+  "home": {
+    "title": "明日北极星",
+    "subtitle": "个人分享空间",
+    "description": "一个收集实用小工具的地方",
+    "welcome": "欢迎来到我的个人分享空间"
+  },
+  "tools": {
+    "title": "实用工具",
+    "unit": {
+      "title": "单位换算",
+      "description": "快速转换各种单位"
+    },
+    "calendar": {
+      "title": "日历转换",
+      "description": "农历与阳历互转"
+    },
+    "journey": {
+      "title": "行程记录",
+      "description": "记录你的旅程"
+    }
+  },
+  "about": {
+    "title": "关于我",
+    "location": "常居北欧",
+    "passion": "我热爱极光和技术，享受在寒冷的北方捕捉大自然的奇迹。",
+    "aurora": "我拍摄的极光",
+    "description": "作为一名技术爱好者，我创建了这个网站来分享一些实用的小工具。同时，我也想分享我在北欧生活中捕捉到的美丽极光。"
+  },
+  "unitConverter": {
+    "title": "单位换算器",
+    "from": "从",
+    "to": "到",
+    "value": "数值",
+    "result": "结果",
+    "categories": {
+      "length": "长度",
+      "weight": "重量",
+      "temperature": "温度",
+      "area": "面积",
+      "volume": "体积"
+    },
+    "units": {
+      "meter": "米",
+      "kilometer": "千米",
+      "centimeter": "厘米",
+      "millimeter": "毫米",
+      "mile": "英里",
+      "yard": "码",
+      "foot": "英尺",
+      "inch": "英寸",
+      "kilogram": "千克",
+      "gram": "克",
+      "milligram": "毫克",
+      "pound": "磅",
+      "ounce": "盎司",
+      "celsius": "摄氏度",
+      "fahrenheit": "华氏度",
+      "kelvin": "开尔文",
+      "squareMeter": "平方米",
+      "squareKilometer": "平方千米",
+      "hectare": "公顷",
+      "acre": "英亩",
+      "liter": "升",
+      "milliliter": "毫升",
+      "gallon": "加仑",
+      "quart": "夸脱"
+    }
+  },
+  "calendarConverter": {
+    "title": "日历转换",
+    "selectDate": "选择日期",
+    "solarDate": "阳历",
+    "lunarDate": "农历",
+    "year": "年",
+    "month": "月",
+    "day": "日",
+    "zodiac": "生肖",
+    "heavenlyStem": "天干",
+    "earthlyBranch": "地支"
+  },
+  "journeyTracker": {
+    "title": "行程记录",
+    "addJourney": "添加行程",
+    "destination": "目的地",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "notes": "备注",
+    "save": "保存",
+    "cancel": "取消",
+    "noJourneys": "暂无行程记录",
+    "edit": "编辑",
+    "delete": "删除"
+  }
+}
