@@ -6,9 +6,7 @@
   },
   "home": {
     "title": "Polaris of Tomorrow",
-    "subtitle": "Personal Sharing Space",
-    "description": "A place for useful tools",
-    "welcome": "Welcome to my personal sharing space"
+    "subtitle": "Personal Sharing Space"
   },
   "tools": {
     "title": "Useful Tools",
@@ -18,7 +16,7 @@
     },
     "calendar": {
       "title": "Calendar Converter",
-      "description": "Convert between Lunar and Solar calendars"
+      "description": "Convert Gregorian calendar to Nong calendar"
     },
     "journey": {
       "title": "Journey Tracker",
@@ -75,8 +73,8 @@
   "calendarConverter": {
     "title": "Calendar Converter",
     "selectDate": "Select Date",
-    "solarDate": "Solar",
-    "lunarDate": "Lunar",
+    "solarDate": "Gregorian Calendar",
+    "lunarDate": "Nong Calendar",
     "year": "Year",
     "month": "Month",
     "day": "Day",

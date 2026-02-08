@@ -6,9 +6,7 @@
   },
   "home": {
     "title": "明日北極星",
-    "subtitle": "個人分享空間",
-    "description": "一個收集實用小工具的地方",
-    "welcome": "歡迎來到我的個人分享空間"
+    "subtitle": "個人分享"
   },
   "tools": {
     "title": "實用工具",
@@ -18,7 +16,7 @@
     },
     "calendar": {
       "title": "日曆轉換",
-      "description": "農曆與陽曆互轉"
+      "description": "公曆轉換為農曆"
     },
     "journey": {
       "title": "行程記錄",
@@ -75,7 +73,7 @@
   "calendarConverter": {
     "title": "日曆轉換",
     "selectDate": "選擇日期",
-    "solarDate": "陽曆",
+    "solarDate": "公曆",
     "lunarDate": "農曆",
     "year": "年",
     "month": "月",
