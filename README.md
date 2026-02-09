@@ -1,91 +1,86 @@
-# 明日北极星个人分享
+# Polaris Sharing
 
-一个优雅的个人分享网站。
+An elegant personal sharing website.
 
-## 🚀 技术栈
+## 🚀 Tech Stack
 
-- **框架**: Next.js 14 (App Router)
-- **语言**: TypeScript
-- **样式**: Tailwind CSS
-- **国际化**: next-intl
-- **包管理**: pnpm
+* **Framework**: Next.js 14 (App Router)
+* **Language**: TypeScript
+* **Styling**: Tailwind CSS
+* **Internationalization**: next-intl
+* **Package Manager**: pnpm
 
-## 📦 安装
+## 📦 Installation
 
 ```bash
-# 安装依赖
+# Install dependencies
 pnpm install
 ```
 
-## 🏃‍♂️ 运行
+## 🏃‍♂️ Development
 
 ```bash
-# 开发模式
+# Run in development mode
 pnpm dev
 
-# 构建生产版本
+# Build for production
 pnpm build
 
-# 运行生产版本
+# Start production server
 pnpm start
 ```
 
-访问 `http://localhost:3000` 查看网站。
+Visit `http://localhost:3000` to view the site.
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
 polaris-sharing/
 ├── src/
 │   ├── app/
-│   │   ├── [locale]/          # 多语言路由
-│   │   │   ├── page.tsx       # 首页
-│   │   │   ├── about/         # 关于页面
-│   │   │   └── tools/         # 工具页面
+│   │   ├── [locale]/          # Locale-based routing
+│   │   │   ├── page.tsx       # Home page
+│   │   │   ├── about/         # About page
+│   │   │   └── tools/         # Tools section
 │   │   │       ├── unit-converter/
 │   │   │       ├── calendar-converter/
 │   │   │       └── journey-tracker/
-│   │   └── globals.css        # 全局样式
-│   ├── components/            # React 组件
-│   ├── lib/                   # 工具函数
-│   └── i18n.ts               # 国际化配置
-├── messages/                  # 语言文件
+│   │   └── globals.css        # Global styles
+│   ├── components/            # React components
+│   ├── lib/                   # Utility functions
+│   └── i18n.ts                # i18n configuration
+├── messages/                  # Locale message files
 │   ├── zh-CN.json
 │   ├── zh-TW.json
 │   └── en.json
-└── public/                    # 静态资源
-    └── videos/               # 极光视频
+└── public/                    # Static assets
+    └── videos/                # Aurora videos
 ```
 
-## 🎨 自定义
+## 🎨 Customization
 
-### 添加极光视频
+### Modify Theme Colors
 
-1. 将您的极光视频文件重命名为 `aurora.mp4`
-2. 放置在 `public/videos/` 目录下
-3. 在 `src/app/[locale]/about/page.tsx` 中取消注释视频标签
-
-### 修改主题颜色
-
-编辑 `tailwind.config.ts` 中的颜色配置：
+Edit the color configuration in `tailwind.config.ts`:
 
 ```typescript
 colors: {
-  aurora: { ... },  // 极光色系
-  polar: { ... },   // 北极色系
-  night: { ... },   // 夜空色系
+  aurora: { ... },  // Aurora palette
+  polar: { ... },   // Polar palette
+  night: { ... },   // Night sky palette
 }
 ```
 
-## 🌐 多语言
+## 🌐 Localization
 
-支持的语言：
-- 简体中文 (`zh-CN`)
-- 繁体中文 (`zh-TW`)
-- 英语 (`en`)
+Supported languages:
 
-默认语言为简体中文。
+* Simplified Chinese (`zh-CN`)
+* Traditional Chinese (`zh-TW`)
+* English (`en`)
 
-## 📝 许可
+The default language is Simplified Chinese.
+
+## 📝 License
 
 MIT License
