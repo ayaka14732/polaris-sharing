@@ -24,7 +24,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         </div>
       </main>
 
-      <Beian locale={locale} />
+      <Beian />
     </div>
   );
 }

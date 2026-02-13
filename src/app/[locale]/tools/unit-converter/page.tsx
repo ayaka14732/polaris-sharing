@@ -163,7 +163,7 @@ export default function UnitConverter({ params: { locale } }: { params: { locale
         </div>
       </main>
 
-      <Beian locale={locale} />
+      <Beian />
     </div>
   );
 }

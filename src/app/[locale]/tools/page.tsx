@@ -61,7 +61,7 @@ export default function ToolsPage({ params: { locale } }: { params: { locale: st
         </div>
       </main>
 
-      <Beian locale={locale} />
+      <Beian />
     </div>
   );
 }

@@ -188,7 +188,7 @@ export default function CalendarConverter({ params: { locale } }: { params: { lo
         </div>
       </main>
 
-      <Beian locale={locale} />
+      <Beian />
     </div>
   );
 }

@@ -207,7 +207,7 @@ export default function JourneyTracker({ params: { locale } }: { params: { local
         </div>
       </main>
 
-      <Beian locale={locale} />
+      <Beian />
     </div>
   );
 }
