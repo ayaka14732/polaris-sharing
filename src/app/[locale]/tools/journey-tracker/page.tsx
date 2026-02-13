@@ -166,6 +166,8 @@ export default function JourneyTracker({ params: { locale } }: { params: { local
             )}
           </AnimatePresence>
 
+          <div className="text-gray-400 my-6">{t("dataStoredLocally")}</div>
+
           <div className="space-y-4">
             {journeys.length === 0 ? (
               <div className="glass-panel p-12 text-center">

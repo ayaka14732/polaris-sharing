@@ -97,6 +97,7 @@
     "notes": "Notes",
     "save": "Save",
     "cancel": "Cancel",
+    "dataStoredLocally": "Note: All journey records are stored locally in your browser, and will not be uploaded to any server. They will persist after refreshing the page, but will be lost if you clear your browser data.",
     "noJourneys": "No journeys yet",
     "edit": "Edit",
     "delete": "Delete"
