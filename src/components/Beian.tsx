@@ -7,7 +7,9 @@ export default function Beian() {
         <div className="inline-flex items-center space-x-2 text-aurora-400">
           <div className="w-2 h-2 bg-aurora-400 rounded-full"></div>
           <p className="text-sm font-light">
-            <a href="https://beian.miit.gov.cn/">粤ICP备2026017752号-1</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/">
+              粤ICP备2026017752号-1
+            </a>
           </p>
           <div className="w-2 h-2 bg-aurora-400 rounded-full"></div>
         </div>
