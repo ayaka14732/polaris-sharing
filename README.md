@@ -57,30 +57,28 @@ polaris-sharing/
     └── videos/                # Aurora videos
 ```
 
-## 🎨 Customization
+## 🐳 Docker Deployment
 
-### Modify Theme Colors
+Make sure `next.config.js` has standalone output enabled:
 
-Edit the color configuration in `tailwind.config.ts`:
-
-```typescript
-colors: {
-  aurora: { ... },  // Aurora palette
-  polar: { ... },   // Polar palette
-  night: { ... },   // Night sky palette
+```js
+const nextConfig = {
+  output: 'standalone',
 }
 ```
 
-## 🌐 Localization
+Build and run:
 
-Supported languages:
+```bash
+docker build -t polaris-sharing .
+docker run -d -p 127.0.0.1:8080:3000 --name polaris-sharing polaris-sharing
+```
 
-* Simplified Chinese (`zh-CN`)
-* Traditional Chinese (`zh-TW`)
-* English (`en`)
+To update:
 
-The default language is Simplified Chinese.
-
-## 📝 License
-
-MIT License
+```bash
+git pull
+docker build -t polaris-sharing .
+docker stop polaris-sharing && docker rm polaris-sharing
+docker run -d -p 127.0.0.1:8080:3000 --name polaris-sharing polaris-sharing
+```
