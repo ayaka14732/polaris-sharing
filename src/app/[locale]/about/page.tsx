@@ -45,6 +45,15 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
             </div>
           </div>
 
+          <div className="glass-panel p-8 mb-12">
+            <h2 className="text-3xl font-display font-semibold mb-6 text-center text-aurora-300">
+              {t("article.title")}
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph1")}</p>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph2")}</p>
+            <p className="text-gray-300 leading-relaxed mb-4">{t("article.paragraph3")}</p>
+          </div>
+
           <div className="glass-panel p-8">
             <h2 className="text-3xl font-display font-semibold mb-6 text-center text-polar-300">{t("aurora")}</h2>
 
